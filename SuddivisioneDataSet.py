@@ -32,9 +32,9 @@ grande = dataFrame_Y[(dataFrame_Y==3)].dropna()
 
 #creazione labels per il grafico
 labels = '7-18 Anni', '19-29 Anni', '30-65 Anni'
-#print("Utenti con età compresa tra 7-18 anni:",piccolo.size)
-#print("Utenti con età compresa tra 19-29 anni:",medio.size)
-#print("Utenti con età compresa tra 30-65 anni:",grande.size)
+print("Utenti con età compresa tra 7-18 anni:",piccolo.size)
+print("Utenti con età compresa tra 19-29 anni:",medio.size)
+print("Utenti con età compresa tra 30-65 anni:",grande.size)
 #assegno alla variabile size il valore delle lables
 sizes = [piccolo.size, medio.size, grande.size]
 explode = (0, 0,0.1)
