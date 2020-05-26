@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 #Lettura Excel del foglio users.
-users = pd.read_excel('keystroke_51.xls', 'users')
+users = pd.read_excel('keystroke_51_Aggiornato.xls', 'users')
 
 print(users.columns)
 

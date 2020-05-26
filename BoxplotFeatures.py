@@ -13,15 +13,15 @@ print(utenti['Age'].value_counts())
 print(utenti)
 
 sns.boxplot(x='Age', y='SommaPP', data=utenti)
-
-plt.show()
-sns.boxplot(x='Age', y='SommaPR',data=utenti)
 plt.show()
 
-sns.boxplot(x='Age', y='SommaRR',data=utenti)
+sns.boxplot(x='Age', y='SommaPR', data=utenti)
 plt.show()
 
-sns.boxplot(x='Age', y='SommaRP',data=utenti)
+sns.boxplot(x='Age', y='SommaRR', data=utenti)
+plt.show()
+
+sns.boxplot(x='Age', y='SommaRP', data=utenti)
 plt.show()
 
 
