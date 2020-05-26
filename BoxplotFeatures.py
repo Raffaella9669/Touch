@@ -12,8 +12,8 @@ print(utenti['Age'].value_counts())
 print(utenti)
 
 sns.boxplot(x='Age', y='SommaPP', data=utenti)
-
 plt.show()
+
 sns.boxplot(x='Age', y='SommaPR', data=utenti)
 plt.show()
 
